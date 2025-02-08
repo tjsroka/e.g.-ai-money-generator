@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Money Generator | Create Wealth Online</title>
+    <meta name="description" content="AI-powered system for generating wealth through automated business and smart investments.">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1c1c1c;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+        h1 {
+            color: #00ff99;
+        }
+        p {
+            font-size: 18px;
+        }
+        .btn {
+            background-color: #00ff99;
+            color: black;
+            padding: 10px 20px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #00cc77;
+        }
+        .input-field {
+            width: 80%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AI-Powered Wealth System</h1>
+        <p>Make money online with the power of AI and automation.</p>
+        <p>📈 Earn passive income through AI-driven investments, digital products, and smart monetization.</p>
+
+        <input type="email" class="input-field" id="email" placeholder="Enter your email to get started">
+        <button class="btn" onclick="registerUser()">🚀 Get Access Now</button>
+
+        <p id="message" style="margin-top: 20px;"></p>
+
+        <h2>🔥 How It Works:</h2>
+        <p>1️⃣ AI finds profitable business opportunities.</p>
+        <p>2️⃣ Automated income systems work 24/7.</p>
+        <p>3️⃣ You generate **$10K - $1M+** in online revenue!</p>
+
+        <h3>💰 Exclusive Offer: 90% OFF AI Wealth Course!</h3>
+        <a href="https://your-affiliate-link.com" target="_blank">
+            <button class="btn">🔥 Claim Now</button>
+        </a>
+    </div>
+
+    <script>
+        function registerUser() {
+            let email = document.getElementById("email").value;
+            if (email === "") {
+                document.getElementById("message").innerHTML = "❌ Please enter a valid email!";
+                return;
+            }
+            document.getElementById("message").innerHTML = "✅ You are now on the AI wealth list! 🚀 Check your email!";
+            // Here, you can integrate Mailchimp, ConvertKit, or an AI email automation tool
+        }
+    </script>
+</body>
+</html>
